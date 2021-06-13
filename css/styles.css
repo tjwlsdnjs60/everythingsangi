@@ -445,6 +445,7 @@ iframe {
 summary {
   display: list-item;
   cursor: pointer;
+  text-align:center;
 }
 
 progress {
@@ -3162,11 +3163,13 @@ textarea.form-control-lg {
   color: white;
   background-color: var(--bs-yellow);
   border-color: var(--bs-yellow);
+  margin:0 auto; 
 }
 .btn-yellow:hover {
   color: gray;
   background-color: var(--bs-yellow);
   border-color: var(--bs-yellow);
+  margin:0 auto;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
@@ -6997,6 +7000,7 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+  text-align : center;
 }
 
 .mb-auto {
@@ -10966,6 +10970,8 @@ html {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
+  text-align:center;
+  
 }
 
 .callout {
@@ -11004,6 +11010,7 @@ footer.footer .social-link:hover {
 
 .map {
   height: 30rem;
+  text-align:center;
 }
 .map iframe {
   pointer-events: none;
@@ -11157,3 +11164,4 @@ footer.footer .social-link:hover {
   .list_gnb > li > a:hover{
     border-bottom: 2px solid currentColor;
   }
+
